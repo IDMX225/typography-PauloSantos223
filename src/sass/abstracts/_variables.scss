@@ -14,3 +14,8 @@ $primary-dark: func.shade($primary-color, 25%);
 $primary-very-dark: func.shade($primary-color, 50%);
 $primary-light: func.tint($primary-color, 25%);
 $primary-very-light: func.tint($primary-color, 50%);
+
+$optical-size: 18;
+$weight: 500;
+$softness: 50;
+$wonky: 10;

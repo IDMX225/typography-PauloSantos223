@@ -4,6 +4,45 @@
 @use "../components/header";
 
 body {
-  font-family: type.$font;
+  font-family: 'Fraunces', serif;
   background-color: var.$bg-very-light;
+
+  font-variation-settings:
+    'opsz' var.$optical-size,
+    'wght' var.$weight,
+    'SOFT' var.$softness,
+    'WONK' var.$wonky;
+}
+
+
+
+h1 {
+  font-family: 'Fraunces', serif;
+
+  font-variation-settings:
+    'opsz' var.$optical-size,
+    'wght' (var.$weight + 180),
+    'SOFT' var.$softness,
+    'WONK' var.$wonky;
+}
+
+p {
+  font-family: 'Fraunces', serif;
+  
+  font-variation-settings:
+    'opsz' var.$optical-size,
+    'wght' var.$weight,
+    'SOFT' var.$softness,
+    'WONK' var.$wonky;
+}
+
+p em {
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  
+  font-variation-settings: 
+    'opsz' var.$optical-size, 
+    'wght' var.$weight, 
+    'SOFT' var.$softness, 
+    'WONK' var.$wonky;
 }
